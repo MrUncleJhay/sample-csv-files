@@ -1,9 +1,0 @@
-csv-splitter/                   # 🏠 The Main House: The root folder that holds all your project's code and files!
-├── app.py                      # 🧠 The Brain: The main Python script that controls the website, processes files, and creates ZIPs.
-├── requirements.txt            # 🛒 The Shopping List: Tells the computer which helper tools (like Flask and Pandas) it needs to install.
-├── runtime.txt                 # 🏷️ The Engine Label: Tells the cloud host (like Render) which exact version of Python to run on.
-├── Procfile                    # 🚀 The Ignition Key: A simple instruction card telling the cloud server "Here is how you turn on the app!"
-├── templates/                  # 📁 The Blueprint Folder: A special folder dedicated to holding web pages for Flask.
-│   └── index.html              # 🎨 The Visual Face: The actual webpage with buttons, text boxes, and progress bars that users see.
-├── uploads/                    # 📦 The Temporary Storage Locker: Where uploaded CSVs sit while being chopped up (created automatically!).
-└── README.md                   # 📖 The Instruction Manual: A helpful guide for human developers explaining how to run and use the project.
