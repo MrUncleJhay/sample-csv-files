@@ -1,25 +1,2 @@
-# PIP REQUIREMENTS LIST
-# This file is like a recipe's ingredient list! It tells Python all the extra 
-# toolboxes (libraries) it needs to download so our CSV Splitter web app works.
-
-
-# 🌐 Flask: Our Web Application Engine
-# Think of Flask as the main frame of our website. It handles creating web pages,
-# receiving uploaded CSV files, and sending back the download link.
-Flask==2.3.3
-
-# 📊 Pandas: The Spreadsheet Super-Robot
-# Pandas is super-fast at reading, slicing, and chopping up massive CSV files 
-# without crashing your computer's memory.
-pandas>=2.3.3
-
-# 🛠️ Werkzeug: Flask's Secret Engine Under the Hood
-# Flask uses Werkzeug behind the scenes! It acts like a digital traffic cop, 
-# making sure uploaded files are safe and web requests go to the right place.
-Werkzeug==2.3.7
-
-# 🚀 Gunicorn: The Heavy-Duty Web Server Boss
-# When you put your app online for real people to use, Flask alone isn't strong 
-# enough. Gunicorn acts like a restaurant host, letting lots of people use 
-# your website at the exact same time!
-gunicorn==21.2.0
+Faker==37
+pytest==8.4.1
