@@ -1,0 +1,10 @@
+# RUNTIME.TXT (The Version Tag)
+# This file tells your cloud host (like Render or Heroku) the EXACT version 
+# of Python your code needs to run smoothly on the internet.
+
+# Breakdown:
+# 🐍 python  --> Tells the server: "Hey, use the Python language engine!"
+# 🔢 -3.11   --> Tells the server: "Make sure it's Version 3.11 specifically!"
+#                (Using a specific version stops code from breaking when new updates come out!)
+
+python-3.11
